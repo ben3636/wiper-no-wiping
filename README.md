@@ -25,6 +25,14 @@ Public Repo for the collection and documentation of IOC's and detections for the
 * Microsoft Exchange
 * Microsoft SQL Priv-Esc (CVE-2021-1636)
 
+## How Can We Detect/Prevent The Malware?
+* Use Defense in Depth
+   * Use detection methods at different layers
+      * Endpoint & Network 
+* Educate users on phishing and social engineering threats!
+   * You are the best AV
+   * Users are always a target, and they're always harder to patch
+
 ## Central Document (Migrating Entirely to this Repo Soon)
 https://docs.google.com/document/d/1KK2hCH9WmwACVup7VTIAYEgVzGcZsaqUlx0J_IFtmt0/edit?usp=sharing
 
