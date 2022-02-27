@@ -6,16 +6,21 @@ Public Repo for the collection and documentation of IOC's and detections for the
 ## TLDR // Sparknotes - What Should I Do Right Now?
 * **Patch all the things!**
    * Apply vendor security updates on endpoints, servers, etc asap
+
 * **Leverage Vulnerability Scanners**
    * Identify vulnerable machines and prioritize patching/updating in order of asset criticality
    * Defending against zero-day exploits is more complicated but we do know that this malware has been previously deployed leveraging known exploits
    * Don't be low-hanging fruit :)
-* **Update AV Software & IDS Rules for easy wins like known file hashes**
+
+* **Update AV Software & IDS Rules**
+   * There is a good chance your vendors have already released updates to help defend against this threat
+   * Clicking an update button is one of the easiest wins (someone else has already done the work)
+
 * **Backup Now**
    * If you haven't backed up critical data in a bit, now's a good time
    * Offline backups are your friend, otherwise ensure backup servers are well-protected (see above)
 
-## Specific Vulnerabilities We Know Have Been Leveraged
+## Specific Vulnerabilities That Have Been Leveraged - Patch These NOW!
 * Apache Tomcat
 * Microsoft Exchange
 * Microsoft SQL Priv-Esc (CVE-2021-1636)
