@@ -50,16 +50,18 @@ Public Repo for the collection and documentation of IOC's and detections for the
 
 
 
-## Central Document (Migrating Entirely to this Repo Soon)
-https://docs.google.com/document/d/1KK2hCH9WmwACVup7VTIAYEgVzGcZsaqUlx0J_IFtmt0/edit?usp=sharing
-
-
-
 ## Items in This Repo
 * Hash List (hash-brown.md)
    * This is a combined list of hashes for known-nasty files related to the malware
    * This list can be used to create IDS & EDR rules in bulk for easy detection
+* Domain & IP List (dns-ip.md)
+   * This is a combined list of domains and servers I've seen mentioned in relationt to this malware
+   * I would be flagging (and/or blocking) these items to identify items that may be infected
+   * These servers may be used for C2 or component download
+      * If it's the second item, it may be possible to stop it from downloading additional components needed to detonate (here's hoping)
 
+## Central Document (Migrating Entirely to this Repo Soon)
+https://docs.google.com/document/d/1KK2hCH9WmwACVup7VTIAYEgVzGcZsaqUlx0J_IFtmt0/edit?usp=sharing
 
 
 ## Coming Soon
