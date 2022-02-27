@@ -66,6 +66,13 @@ Public Repo for the collection and documentation of IOC's and detections for the
    * These servers may be used for C2 or component download
       * If it's the second item, it may be possible to stop it from downloading additional components needed to detonate (here's hoping)
 
+* **Registry Modifications (registry-keys.md)**
+   * This is a list of registry keys the malware is known to modify/create throughout the attack cycle
+
+* **File Activity (file-activity.md)**
+   * This is a list of the files the malware is known to create/modify throughout the attack cycle
+
+
 ## Central Document (Migrating Entirely to this Repo Soon)
 https://docs.google.com/document/d/1KK2hCH9WmwACVup7VTIAYEgVzGcZsaqUlx0J_IFtmt0/edit?usp=sharing
 
