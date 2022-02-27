@@ -15,6 +15,11 @@ Public Repo for the collection and documentation of IOC's and detections for the
    * If you haven't backed up critical data in a bit, now's a good time
    * Offline backups are your friend, otherwise ensure backup servers are well-protected (see above)
 
+## Specific Vulnerabilities We Know Have Been Leveraged
+* Apache Tomcat
+* Microsoft Exchange
+* Microsoft SQL Priv-Esc (CVE-2021-1636)
+
 ## Central Document (Migrating Entirely to this Repo Soon)
 https://docs.google.com/document/d/1KK2hCH9WmwACVup7VTIAYEgVzGcZsaqUlx0J_IFtmt0/edit?usp=sharing
 
