@@ -4,12 +4,16 @@ Public Repo for the collection and documentation of IOC's and detections for the
 ![alt text](https://github.com/ben3636/wiper-no-wiping/blob/main/image.jpg)
 
 ## TLDR // Sparknotes - What Should I Do Right Now?
-* Patch all the things!
+* **Patch all the things!**
    * Apply vendor security updates on endpoints, servers, etc asap
-* Leverage Vulnerability Scanners
+* **Leverage Vulnerability Scanners**
    * Identify vulnerable machines and prioritize patching/updating in order of asset criticality
    * Defending against zero-day exploits is more complicated but we do know that this malware has been previously deployed leveraging known exploits
    * Don't be low-hanging fruit :)
+* **Update AV Software & IDS Rules for easy wins like known file hashes**
+* **Backup Now**
+   * If you haven't backed up critical data in a bit, now's a good time
+   * Offline backups are your friend, otherwise ensure backup servers are well-protected (see above)
 
 ## Central Document (Migrating Entirely to this Repo Soon)
 https://docs.google.com/document/d/1KK2hCH9WmwACVup7VTIAYEgVzGcZsaqUlx0J_IFtmt0/edit?usp=sharing
