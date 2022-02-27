@@ -51,10 +51,11 @@ Public Repo for the collection and documentation of IOC's and detections for the
 
 
 ## Items in This Repo
-* Hash List (hash-brown.md)
+* **Hash List (hash-brown.md)**
    * This is a combined list of hashes for known-nasty files related to the malware
    * This list can be used to create IDS & EDR rules in bulk for easy detection
-* Domain & IP List (dns-ip.md)
+
+* **Domain & IP List (dns-ip.md)**
    * This is a combined list of domains and servers I've seen mentioned in relationt to this malware
    * I would be flagging (and/or blocking) these items to identify items that may be infected
    * These servers may be used for C2 or component download
