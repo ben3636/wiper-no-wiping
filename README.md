@@ -78,6 +78,7 @@ https://docs.google.com/document/d/1KK2hCH9WmwACVup7VTIAYEgVzGcZsaqUlx0J_IFtmt0/
 
 
 ## Coming Soon
+* OSQuery Threat Hunting Pack
 * Suricata rules
 * Elastic XDR rules
 
