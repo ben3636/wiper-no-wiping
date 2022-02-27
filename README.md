@@ -46,6 +46,7 @@ Public Repo for the collection and documentation of IOC's and detections for the
 * **Deploy behavioral detections**
    * We may not know which technique the attacker will use, but we can watch for specific behaviors linked to high-level goals
       * Registry Modifications
+         * https://github.com/ben3636/wiper-no-wiping/blob/main/registry-keys.md
       * Process Creation + Arguments
       * Driver Addition/Modification
       * Service Addition/Modification
