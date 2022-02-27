@@ -20,36 +20,51 @@ Public Repo for the collection and documentation of IOC's and detections for the
    * If you haven't backed up critical data in a bit, now's a good time
    * Offline backups are your friend, otherwise ensure backup servers are well-protected (see above)
 
+
+
 ## Specific Vulnerabilities That Have Been Leveraged - Patch These NOW!
 * Apache Tomcat
 * Microsoft Exchange
 * Microsoft SQL Priv-Esc (CVE-2021-1636)
 
+
+
 ## How Can We Detect/Prevent The Malware?
-* Use Defense in Depth
+* **Use Defense in Depth**
    * Use detection methods at different layers
       * Endpoint & Network 
-* Educate users on phishing and social engineering threats!
+* **Educate users on phishing and social engineering threats!**
    * You are the best AV
    * Users are always a target, and they're always harder to patch
-* Deploy black-and-white signatures
+
+* **Deploy black-and-white signatures**
    * File hashes (endpoint and network)
-* Deploy behavioral detections
+      * I've compiled a list of hash values for this malware here: https://github.com/ben3636/wiper-no-wiping/blob/main/hash-brown.md
+
+* **Deploy behavioral detections**
    * We may not know which technique the attacker will use, but we can watch for specific behaviors linked to high-level goals
    * Wouldn't it be cool if someone made this into a detailed/easy-to-read framework? You're in luck :)
       * https://attack.mitre.org
 
+
+
 ## Central Document (Migrating Entirely to this Repo Soon)
 https://docs.google.com/document/d/1KK2hCH9WmwACVup7VTIAYEgVzGcZsaqUlx0J_IFtmt0/edit?usp=sharing
+
+
 
 ## Items in This Repo
 * Hash List (hash-brown.md)
    * This is a combined list of hashes for known-nasty files related to the malware
    * This list can be used to create IDS & EDR rules in bulk for easy detection
 
+
+
 ## Coming Soon
 * Suricata rules
 * Elastic XDR rules
+
+
 
 ## Reading Material
 
