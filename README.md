@@ -34,7 +34,7 @@ Public Repo for the collection and documentation of IOC's and detections for the
    * Users are always a target, and they're always harder to patch
 * Deploy black-and-white signatures
    * File hashes (endpoint and network)
-* Watch logs for suspicious activity
+* Deploy behavioral detections
    * We may not know which technique the attacker will use, but we can watch for specific behaviors linked to high-level goals
    * Wouldn't it be cool if someone made this into a detailed/easy-to-read framework? You're in luck :)
       * https://attack.mitre.org
