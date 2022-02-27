@@ -40,6 +40,8 @@ Public Repo for the collection and documentation of IOC's and detections for the
 * **Deploy black-and-white signatures**
    * File hashes (endpoint and network)
       * I've compiled a list of hash values for this malware here: https://github.com/ben3636/wiper-no-wiping/blob/main/hash-brown.md
+   * Known DNS queries & IP Addresses
+      * These may be used for C2 or component download, either way you should keep an eye on them: https://github.com/ben3636/wiper-no-wiping/blob/main/dns-ip.md
 
 * **Deploy behavioral detections**
    * We may not know which technique the attacker will use, but we can watch for specific behaviors linked to high-level goals
