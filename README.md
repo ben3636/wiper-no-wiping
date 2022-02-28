@@ -1,5 +1,4 @@
 # Wiper No Wiping!
-Public Repo for the collection and documentation of IOC's and detections for the novel data-wiping malware used in Ukraine
 
 ![alt text](https://github.com/ben3636/wiper-no-wiping/blob/main/image.jpg)
 
