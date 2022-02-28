@@ -67,8 +67,8 @@
    * This list can be used to create IDS & EDR rules in bulk for easy detection
 
 * **Domain & IP List (dns-ip.md)**
-   * This is a combined list of domains and servers I've seen mentioned in relationt to this malware
-   * I would be flagging (and/or blocking) these items to identify items that may be infected
+   * This is a combined list of domains and servers I've seen mentioned in relation to this malware
+   * I would be flagging (and/or blocking) these items to identify hosts that may be infected
    * These servers may be used for C2 or component download
       * If it's the second item, it may be possible to stop it from downloading additional components needed to detonate (here's hoping)
 
