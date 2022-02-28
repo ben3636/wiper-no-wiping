@@ -42,6 +42,8 @@ Public Repo for the collection and documentation of IOC's and detections for the
       * I've compiled a list of hash values for this malware here: https://github.com/ben3636/wiper-no-wiping/blob/main/hash-brown.md
    * Known DNS queries & IP Addresses
       * These may be used for C2 or component download, either way you should keep an eye on them: https://github.com/ben3636/wiper-no-wiping/blob/main/dns-ip.md
+   * Don't have an IDS?
+      * ***Shameless Plug:*** https://github.com/ben3636/suricata-pi
 
 * **Deploy behavioral detections**
    * We may not know which technique the attacker will use, but we can watch for specific behaviors linked to high-level goals
@@ -50,8 +52,13 @@ Public Repo for the collection and documentation of IOC's and detections for the
       * Process Creation + Arguments
       * Driver Addition/Modification
       * Service Addition/Modification
+      * Scheduled Task Creation/Modification
    * Wouldn't it be cool if someone made this into a detailed/easy-to-read framework? You're in luck :)
       * https://attack.mitre.org
+   * Don't have a SIEM or XDR Platform?
+      * I'm a sucker for Splunk but it can be $$$
+      * If you need something that is free and can run on anything (even a Raspberry Pi), check out the Elastic Stack & Elastic Security
+         * ***Shameless Plug:*** https://github.com/ben3636/pi-securenet 
 
 
 
