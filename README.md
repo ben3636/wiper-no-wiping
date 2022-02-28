@@ -37,7 +37,7 @@
    * Users are always a target, and they're always harder to patch
 
 * **Deploy black-and-white signatures**
-   * File hashes (endpoint and network)
+   * File hashes (Endpoint **and** Network)
       * I've compiled a list of hash values for this malware here: https://github.com/ben3636/wiper-no-wiping/blob/main/hash-brown.md
    * Known DNS queries & IP Addresses
       * These may be used for C2 or component download, either way you should keep an eye on them: https://github.com/ben3636/wiper-no-wiping/blob/main/dns-ip.md
@@ -88,6 +88,13 @@ https://docs.google.com/document/d/1KK2hCH9WmwACVup7VTIAYEgVzGcZsaqUlx0J_IFtmt0/
 * Suricata rules
 * Elastic XDR rules
 
+
+## Open Source & Free Solutions to Secure Your World
+* OSSEC
+* Wazah
+* Yara
+* Osquery
+* Suricata
 
 
 ## Reading Material
