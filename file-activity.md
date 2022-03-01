@@ -3,3 +3,6 @@
 
 ## Source: https://securityintelligence.com/posts/new-destructive-malware-cyber-attacks-ukraine/
 * C:\Windows\system32\Drivers\<random_2chars>dr
+
+## Source: https://www.zscaler.com/blogs/security-research/hermeticwiper-resurgence-targeted-attacks-ukraine
+* ypagjgfyy.dll
