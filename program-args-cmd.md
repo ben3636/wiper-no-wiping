@@ -5,4 +5,6 @@
 * regsvr32.exe /s /i <path>
  
 * regsvr32.exe /s /i:-s <path>
+ 
+* rundll32 <current folder>\<6 random letters>.ocx #1 -s <path to HermeticWizard> – i <target IP>
   
