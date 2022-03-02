@@ -6,3 +6,6 @@
 
 ## Source: https://www.zscaler.com/blogs/security-research/hermeticwiper-resurgence-targeted-attacks-ukraine
 * ypagjgfyy.dll
+
+## Source: https://www.welivesecurity.com/2022/03/01/isaacwiper-hermeticwizard-wiper-worm-targeting-ukraine/
+* C:\Windows\System32\drivers\<4 random letters>.sys
