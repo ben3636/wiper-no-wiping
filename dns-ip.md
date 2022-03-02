@@ -35,3 +35,29 @@
 * http://files-download[.]infousa[.]xyz/Windows_photo_viewers.msi
 * http://files-download[.]infousa[.]xyz/Windows_photo_viewer.msi
 * http://download.logins[.]online/exe/LinK13112020.msi
+
+
+## Source: https://www.welivesecurity.com/2022/03/01/isaacwiper-hermeticwizard-wiper-worm-targeting-ukraine/
+
+> Note: As described in this article, the worm component of this malware will scan the /24 subnet to enumerate hosts and scan a few common ports to determine live neighbors:
+
+> 20: ftp
+
+> 21: ftp
+
+> 22: ssh
+
+> 80: http
+
+> 135: rpc
+
+> 137: netbios
+
+> 139: smb
+
+> 443: https
+
+> 445: smb
+
+
+> While we do know that the order of the ports is randomized to prevent fingerprinting, I'm looking into statistical detection opportunities grounded in the the burst of low-packet activity involving this group of ports within a given time window
