@@ -35,6 +35,8 @@
 * **Educate users on phishing and social engineering threats!**
    * You are the best AV
    * Users are always a target, and they're always harder to patch
+   * We have evidence to support that HermeticWiper has been deployed via GPO Policy at least once
+      * Admin & IT Users are considered higher-risk target because of this
 
 * **Deploy black-and-white signatures**
    * File hashes (Endpoint **and** Network)
@@ -49,6 +51,7 @@
       * Registry Modifications
          * https://github.com/ben3636/wiper-no-wiping/blob/main/registry-keys.md
       * Process Creation + Arguments
+         * WMI Usage
       * Driver Addition/Modification
       * Service Addition/Modification
       * Scheduled Task Creation/Modification
