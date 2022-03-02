@@ -16,4 +16,11 @@
 * C:\Windows\Temp\cc2.exe
 * C:\Users\com.exe
 * C:\WINDOWS\system32\GroupPolicy\DataStore\0\sysvol\<redacted>\Policies\{31B2F340-016D-11D2-945F-00C04FB984F9}\Machine\cpin.exe
+* Cleaner.dll
+* clean.exe
+* cl.exe
+* cl64.dll
+* cld.dll
+* cll.dll
+* C:\ProgramData\log.txt
 
