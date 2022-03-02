@@ -81,6 +81,8 @@
 
 * **File Activity (file-activity.md)**
    * This is a list of the files the malware is known to create/modify throughout the attack cycle
+* **Program Arguments & Commandline IOCs (process-cmd.md)**
+   * This is a list of program arguments and commandline strings associated with this malware/worm
 
 
 ## Central Document (Migrating Entirely to this Repo Soon)
