@@ -37,6 +37,7 @@
    * Users are always a target, and they're always harder to patch
    * We have evidence to support that HermeticWiper has been deployed via GPO Policy at least once
       * Admin & IT Users are considered higher-risk target because of this
+      * As always, harden & monitor Active Directory servers
 
 * **Deploy black-and-white signatures**
    * File hashes (Endpoint **and** Network)
