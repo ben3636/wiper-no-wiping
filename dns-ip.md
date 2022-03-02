@@ -43,36 +43,66 @@
 
 ### WMI Spreader (Dest Ports Scanned)
 
- 20: ftp
+* 20: ftp
 
- 21: ftp
+* 21: ftp
 
- 22: ssh
+* 22: ssh
 
- 80: http
+* 80: http
 
- 135: rpc
+* 135: rpc
 
- 137: netbios
+* 137: netbios
 
- 139: smb
+* 139: smb
 
- 443: https
+* 443: https
 
- 445: smb
+* 445: smb
 
 
 > While we do know that the order of the ports is randomized to prevent fingerprinting, I'm looking into statistical detection opportunities grounded in the the burst of low-packet activity involving this group of ports within a given time window
 
 ### SMB Spreader (SMB Pipes)
-samr
 
-browser
+* samr
 
-netlogon
+* browser
 
-lsarpc
+* netlogon
 
-ntsvcs
+* lsarpc
 
-svcctl
+* ntsvcs
+
+* svcctl
+
+### SMB Spreader Hard-Coded Credentials
+
+* Usernames
+
+   * guest
+
+   * test
+
+   * admin
+
+   * user
+
+   * root
+
+   * administrator
+
+   * manager
+
+   * operator
+
+* Passwords
+
+   * 123
+
+   * Qaz123
+
+   * Qwerty123
+
