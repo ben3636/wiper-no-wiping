@@ -1,0 +1,8 @@
+# Process Arguments & Commandline String IOCs
+
+## Source: https://www.welivesecurity.com/2022/03/01/isaacwiper-hermeticwizard-wiper-worm-targeting-ukraine/
+
+* regsvr32.exe /s /i <path>
+ 
+* regsvr32.exe /s /i:-s <path>
+  
