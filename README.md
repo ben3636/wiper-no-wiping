@@ -117,6 +117,8 @@ https://www.welivesecurity.com/2022/03/01/isaacwiper-hermeticwizard-wiper-worm-t
 
 https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/ukraine-wiper-malware-russia
 
+https://www.cyber.gov.au/acsc/view-all-content/advisories/2022-02-australian-organisations-should-urgently-adopt-enhanced-cyber-security-posture
+
 https://www.cyberark.com/resources/blog/hermeticwiper-what-we-know-about-new-malware-targeting-ukrainian-infrastructure-thus-far
 
 http://blog.talosintelligence.com/2022/02/threat-advisory-hermeticwiper.html
