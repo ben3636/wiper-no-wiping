@@ -8,3 +8,4 @@
  
 * rundll32 <current folder>\<6 random letters>.ocx #1 -s <path to HermeticWizard> – i <target IP>
   
+* C:\windows\system32\cmd.exe /c start C:\windows\system32\\regsvr32.exe /s /i C:\windows\<filename>.dll
