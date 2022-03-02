@@ -2,6 +2,9 @@
 
 ![alt text](https://github.com/ben3636/wiper-no-wiping/blob/main/image.jpg)
 
+> 3/1/22 UPDATE: HermeticWiper/FoxBlade & IsaacWiper now have ***worm components*** and have the ability to self-propogate through networks!
+> It is now critically important that you detect and isolate hosts presenting IOC's before they have the chance to enumerate neighbors and spread the infection
+
 ## TLDR // Sparknotes - What Should I Do Right Now?
 * **Patch all the things!**
    * Apply vendor security updates on endpoints, servers, etc asap
