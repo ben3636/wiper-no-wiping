@@ -11,3 +11,4 @@
 * C:\Windows\System32\drivers\<4 random letters>.sys
 * <6 random letters>.ocx
 * exec_32.dll
+* romance.dll
