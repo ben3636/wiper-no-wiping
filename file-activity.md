@@ -23,4 +23,11 @@
 * cld.dll
 * cll.dll
 * C:\ProgramData\log.txt
-
+* com.exe
+* conhosts.exe
+* c9EEAF78C9A12.dat
+* cc2.exe
+* cl64.dll
+* cld.dll
+* clean.exe
+* XqoYMlBX.exe
