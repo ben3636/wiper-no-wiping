@@ -103,6 +103,8 @@ https://www.cisa.gov/uscert/shields-technical-guidance
 
 https://www.cisa.gov/uscert/ncas/alerts/aa22-057a
 
+https://www.welivesecurity.com/2022/03/01/isaacwiper-hermeticwizard-wiper-worm-targeting-ukraine/
+
 https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/ukraine-wiper-malware-russia
 
 https://www.cyberark.com/resources/blog/hermeticwiper-what-we-know-about-new-malware-targeting-ukrainian-infrastructure-thus-far
