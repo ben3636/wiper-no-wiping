@@ -41,23 +41,38 @@
 
 > Note: As described in this article, the worm component of this malware will scan the /24 subnet to enumerate hosts and scan a few common ports to determine live neighbors:
 
-> 20: ftp
+### WMI Spreader (Dest Ports Scanned)
 
-> 21: ftp
+ 20: ftp
 
-> 22: ssh
+ 21: ftp
 
-> 80: http
+ 22: ssh
 
-> 135: rpc
+ 80: http
 
-> 137: netbios
+ 135: rpc
 
-> 139: smb
+ 137: netbios
 
-> 443: https
+ 139: smb
 
-> 445: smb
+ 443: https
+
+ 445: smb
 
 
 > While we do know that the order of the ports is randomized to prevent fingerprinting, I'm looking into statistical detection opportunities grounded in the the burst of low-packet activity involving this group of ports within a given time window
+
+### SMB Spreader (SMB Pipes)
+samr
+
+browser
+
+netlogon
+
+lsarpc
+
+ntsvcs
+
+svcctl
